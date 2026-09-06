@@ -22,10 +22,10 @@ This repository contains the finite element analysis (FEA) structural and therma
 
 | Analysis Type | Rev A (Baseline Solid) | Rev B (Optimized Waffle-Grid) |
 | :--- | :---: | :---: |
-| **von Mises Stress** | ![Rev A Stress](Plots_and_Renders/Baseline_Static_VonMises_Stress.png) | ![Rev B Stress](Plots_and_Renders/Optimized_Static_VonMises_Stress.png) |
-| **Displacement** | ![Rev A Displacement](Plots_and_Renders/Baseline_static_Displacement.png) | ![Rev B Displacement](Plots_and_Renders/Optimized_Static_Displacement.png) |
-| **Factor of Safety** | ![Rev A FOS](Plots_and_Renders/Baseline_Static_FactorOfSafety.png) | ![Rev B FOS](Plots_and_Renders/Optimized_Static_FactorOfSafety.png) |
-| **Thermal Contour** | ![Rev A Thermal](Plots_and_Renders/Baseline_Thermal_Contour.png) | ![Rev B Thermal](Plots_and_Renders/Optimized_Thermal_Dissipation.png) |
+| **von Mises Stress** | ![Rev A Stress](Plots_and_Renders/Stress_RevA_vonMises.png) | ![Rev B Stress](Plots_and_Renders/Stress_RevB_vonMises.png) |
+| **Displacement** | ![Rev A Displacement](Plots_and_Renders/Displacement_RevA.png) | ![Rev B Displacement](Plots_and_Renders/Displacement_RevB.png) |
+| **Factor of Safety** | ![Rev A FOS](Plots_and_Renders/FOS_RevA.png) | ![Rev B FOS](Plots_and_Renders/FOS_RevB.png) |
+| **Thermal Contour** | ![Rev A Thermal](Plots_and_Renders/Thermal_RevA.png) | ![Rev B Thermal](Plots_and_Renders/Thermal_RevB.png) |
 
 ---
 
