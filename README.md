@@ -18,6 +18,17 @@ This repository contains the finite element analysis (FEA) structural and therma
 
 ---
 
+## Visual FEA Comparison Matrix
+
+| Analysis Type | Rev A (Baseline Solid) | Rev B (Optimized Waffle-Grid) |
+| :--- | :---: | :---: |
+| **von Mises Stress** | ![Rev A Stress](Plots_and_Renders/Baseline_Static_VonMises_Stress.png) | ![Rev B Stress](Plots_and_Renders/Optimized_Static_VonMises_Stress.png) |
+| **Displacement** | ![Rev A Displacement](Plots_and_Renders/Baseline_static_Displacement.png) | ![Rev B Displacement](Plots_and_Renders/Optimized_Static_Displacement.png) |
+| **Factor of Safety** | ![Rev A FOS](Plots_and_Renders/Baseline_Static_FactorOfSafety.png) | ![Rev B FOS](Plots_and_Renders/Optimized_Static_FactorOfSafety.png) |
+| **Thermal Contour** | ![Rev A Thermal](Plots_and_Renders/Baseline_Thermal_Contour.png) | ![Rev B Thermal](Plots_and_Renders/Optimized_Thermal_Dissipation.png) |
+
+---
+
 ## Design Features & Engineering Rationale
 
 1. **Mass Reduction & Wall Topology:**
@@ -44,18 +55,13 @@ This repository contains the finite element analysis (FEA) structural and therma
 ├── CAD/
 │   ├── Chassis_Baseline_Rev_A.SLDPRT
 │   └── Chassis_Optimized_Rev_B.SLDPRT
-├── Simulation_Data/
-│   ├── Static_Study_RevA.cww
-│   ├── Static_Study_RevB.cww
-│   ├── Thermal_Study_RevA.cww
-│   └── Thermal_Study_RevB.cww
 ├── Plots_and_Renders/
-│   ├── Stress_RevA_vonMises.png
-│   ├── Stress_RevB_vonMises.png
-│   ├── Displacement_RevA.png
-│   ├── Displacement_RevB.png
-│   ├── FOS_RevA.png
-│   ├── FOS_RevB.png
-│   ├── Thermal_RevA.png
-│   └── Thermal_RevB.png
+│   ├── Baseline_Static_VonMises_Stress.png
+│   ├── Baseline_static_Displacement.png
+│   ├── Baseline_Static_FactorOfSafety.png
+│   ├── Baseline_Thermal_Contour.png
+│   ├── Optimized_Static_VonMises_Stress.png
+│   ├── Optimized_Static_Displacement.png
+│   ├── Optimized_Static_FactorOfSafety.png
+│   └── Optimized_Thermal_Dissipation.png
 └── README.md
